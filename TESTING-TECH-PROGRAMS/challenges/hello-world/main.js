@@ -9,7 +9,7 @@ let students = [
 // Funciton to print all students and their grades.
 function printAllStudents(students) {
      for (let i = 0; i < students.length; i++) {
-         console.log(/*"Name:",*/ `${students[i].name}: ${students[i].grade}`);
+         console.log(`${students[i].name}: ${students[i].grade}`);
      }
 };
 
