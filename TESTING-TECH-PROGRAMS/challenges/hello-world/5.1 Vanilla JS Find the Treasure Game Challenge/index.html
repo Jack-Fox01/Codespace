@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"/>
+    <title>Treasure Game</title>
+</head>
+
+<body>
+    <h1>🗺️ Treasure Hunt! 🗺️</h1>
+    <p>Click on the door to find the dabloons!</p>
+    
+    <div class="choices">
+        <button onclick="playGame('door1')">🚪</button>
+        <button onclick="playGame('door2')">🚪</button>
+        <button onclick="playGame('door3')">🚪</button>
+    </div>
+
+    <div id="playerDisplay">Pirate:</div>
+    <div id="computerDisplay">British Royal Navy:</div>
+    <div id="resultDisplay"></div>
+   
+    <div class="scoreDisplay">Pirate Score:
+        <span id="playerScoreDisplay">0</span>
+    </div>
+    <div class="scoreDisplay">BRN Score:
+        <span id="computerScoreDisplay">0</span>
+    </div>
+        <div class="scoreDisplay">Davey Jones Encounters:
+        <span id="jonesScoreDisplay">0</span>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
