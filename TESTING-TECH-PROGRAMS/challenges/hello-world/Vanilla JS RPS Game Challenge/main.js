@@ -1,14 +1,23 @@
 const choices = ["rock", "paper", "scissors"];
+
+// Get the buttons from the DOM.
+const rockBtn = document.getElementById('rock');
+const paperBtn = document.getElementById('paper');
+const scissorsBtn = document.getElementById('scissors');
+
+// Display elements.
 const playerDisplay = document.getElementById("playerDisplay");
 const computerDisplay = document.getElementById("computerDisplay");
 const resultDisplay = document.getElementById("resultDisplay");
 
 
-// function playGame(playerChoice)
-let playGame = playerChoice =>{
+rockBtn.addEventListener('click', () => playGame("rock"));
+paperBtn.addEventListener('click', () => playGame("paper"));
+scissorsBtn.addEventListener('click', () => playGame("scissors"));
 
+let playGame = playerChoice => {
     const computerChoice = choices[Math.floor(Math.random() * 3)];
-    let result = " ";
+    let result = "";
 
     if(playerChoice === computerChoice){
         result = "Tie!";
@@ -30,4 +39,4 @@ let playGame = playerChoice =>{
     playerDisplay.textContent = `Player: ${playerChoice}`;
     computerDisplay.textContent = `Computer: ${computerChoice}`;
     resultDisplay.textContent = result;
-}
+};
