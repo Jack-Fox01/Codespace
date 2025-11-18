@@ -5,6 +5,11 @@ const resultDisplay = document.getElementById("resultDisplay");
 const playerScoreDisplay = document.getElementById("playerScoreDisplay");
 const computerScoreDisplay = document.getElementById("computerScoreDisplay");
 const jonesScoreDisplay = document.getElementById("jonesScoreDisplay");
+
+document.getElementById("door1").addEventListener("click", () => playGame("door1"));
+document.getElementById("door2").addEventListener("click", () => playGame("door2"));
+document.getElementById("door3").addEventListener("click", () => playGame("door3"));
+
 let playerScore = 0;
 let computerScore = 0;
 let jonesScore = 0;
