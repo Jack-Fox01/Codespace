@@ -52,7 +52,7 @@ const mostExpensiveItem = items => {
     let maxItem = items[0];
     let maxValue = items[0].price * items[0].stock;
 
-    for (let i = 1; i < items.length; i++) {
+    for (let i = 0; i < items.length; i++) {
         const currentValue = items[i].price * items[i].stock;
         if (currentValue > maxValue) {
             maxValue = currentValue;
