@@ -29,14 +29,14 @@ class User {
     get firstName() {
         return this._firstName;
     }
-    set firstName(value) {
-        this._firstName = value;
+    set firstName(firstName) {
+        this._firstName = firstName;
     }
     get lastName() {
         return this._lastName;
     }
-    set lastName(value) {
-        this._lastName = value;
+    set lastName(lastName) {
+        this._lastName = lastName;
     }
 
     hello() {
@@ -132,8 +132,8 @@ class User {
     get userName() {
         return this._userName;
     }
-    set userName(value) {
-        this._userName = value;
+    set userName(userName) {
+        this._userName = userName;
     }
 }
 
