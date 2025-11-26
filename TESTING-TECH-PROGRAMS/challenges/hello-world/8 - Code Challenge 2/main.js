@@ -59,8 +59,8 @@ class User {
     constructor(userName) {
         this._userName = userName;
     }
-    set userName(value) {
-        this._userName = value;
+    set userName(name) {
+        this._userName = name;
     }
 }
 
