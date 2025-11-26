@@ -62,6 +62,8 @@ class User {
     set userName(name) {
         this._userName = name;
     }
+    get userName() {
+     return this._username;
 }
 
 class Admin extends User {
