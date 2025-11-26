@@ -152,7 +152,7 @@ class Admin extends User {
 
 class Viewer extends User {
     stateYourRole() {
-        return "admin";
+        return "viewer";
     }
 }
 
