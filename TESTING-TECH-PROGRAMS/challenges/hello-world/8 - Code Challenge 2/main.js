@@ -90,11 +90,11 @@ class User {
     this._numberOfArticles = 0;
   }
 // this lets you change the number of articles.
-  setNumberOfArticles(numberOfArticles) {
+  set NumberOfArticles(numberOfArticles) {
     this._numberOfArticles = numberOfArticles;
   }
 // this lets you read the number of articles.
-  getNumberOfArticles() {
+  get NumberOfArticles() {
     return this._numberOfArticles;
   }
 
