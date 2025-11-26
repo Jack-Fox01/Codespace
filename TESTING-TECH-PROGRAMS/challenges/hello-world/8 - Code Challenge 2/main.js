@@ -68,6 +68,11 @@ class User {
 
 class Admin extends User {
 
+    constructor() {
+
+       super();
+}
+ 
     expressYourRole() {
         return "Admin";
     }
