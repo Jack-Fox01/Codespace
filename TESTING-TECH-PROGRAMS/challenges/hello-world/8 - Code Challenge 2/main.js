@@ -90,11 +90,11 @@ class User {
     this._numberOfArticles = 0;
   }
 // this lets you change the number of articles.
-  set NumberOfArticles(numberOfArticles) {
+  set numberOfArticles(numberOfArticles) {
     this._numberOfArticles = numberOfArticles;
   }
 // this lets you read the number of articles.
-  get NumberOfArticles() {
+  get numberOfArticles() {
     return this._numberOfArticles;
   }
 
@@ -104,13 +104,13 @@ class User {
 
 class Author extends User {
     calcScores() {
-        return this.getNumberOfArticles() * 10 + 20;
+        return this._numberOfArticles * 10 + 20;
     }
 }
 
 class Editor extends User {
     calcScores() {
-        return this.getNumberOfArticles() * 6 + 15;
+        return this._numberOfArticles * 6 + 15;
     }
 }
 
