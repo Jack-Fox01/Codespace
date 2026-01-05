@@ -14,9 +14,12 @@ The courses that I have done are as follows;
 <h1>Carreer Skills</h1>
 <p>Social and Soft skills</p>
 
+
+<h2>What you will find</h2>
 As you look through the code,images and videos you will see an improvement not only in undersanding coding concepts, but a sharp increase in coding ability and UI/UX Design.
 I will allow you to peruse this as you wish but please be aware that there are only images and videos for the small projects and then the portfolio. 
 
+<h3>Gratitudes</h3>
 One last thing I would like to say is, I am very fortunate to be able to do something like this, Glory to God for an excellent oppertunity. Although near the end I had personal and family issues, being in and out of hospital, knock me off my course, I was able to bounce back and use the tools I had my disposal, mainly my brain and creative thinking. 
 I am very well pleased with the results of the work I have done. 
 
